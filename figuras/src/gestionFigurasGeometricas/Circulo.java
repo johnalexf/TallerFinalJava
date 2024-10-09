@@ -1,5 +1,6 @@
 package gestionFigurasGeometricas;
 import java.awt.*;
+import java.awt.Point;
 
 public class Circulo extends Figura{
     private double radio;
@@ -9,7 +10,7 @@ public class Circulo extends Figura{
     }
 
     public double calcularArea(){
-        return Math.PÏ * radio * radio;
+        return Math.PI * radio * radio;
     }
 
     public double calcularPerimetro(){

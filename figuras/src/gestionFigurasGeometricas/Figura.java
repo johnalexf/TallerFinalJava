@@ -12,16 +12,16 @@ public abstract class Figura implements Dibujable, Movible{
     }
 
     public abstract double calcularArea();
-    void verDatos(){    }
+
 
     public abstract double calcularPerimetro();
-    void verDatos(){    }
+
     public String getColor() {
         return color;
     }
 
     public void setColor(String color) {
-        .color = color;
+        this.color = color;
     }
 
     public Point getPosicion() {
@@ -41,10 +41,10 @@ public abstract class Figura implements Dibujable, Movible{
     }
 
     public void moverHorizontalmente(int distancia){
-        System.out.println("Estoy moviendo horizontalmente");
+        System.out.println("Estoy moviendo horizontalmente" + distancia);
     }
 
     public void moverVerticalmente(int distancia){
-        System.out.println("Estoy moviendo verticalmente");
+        System.out.println("Estoy moviendo verticalmente" + distancia);
     }
 }

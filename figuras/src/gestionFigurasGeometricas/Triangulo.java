@@ -1,5 +1,5 @@
 package gestionFigurasGeometricas;
-
+import java.awt.Point;
 import java.awt.*;
 
 public class Triangulo extends Figura{
@@ -13,5 +13,10 @@ public class Triangulo extends Figura{
 
     public double calcularArea (){
         return (base * altura) / 2;
+    }
+
+
+    public double calcularPerimetro (){
+        return 0;
     }
 }
